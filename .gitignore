@@ -1,0 +1,47 @@
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local Android SDK configuration
+local.properties
+
+# Android build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+captures/
+output-metadata.json
+
+# Native build outputs
+.cxx/
+.externalNativeBuild/
+
+# Android Studio / IntelliJ
+.idea/caches/
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/deploymentTargetSelector.xml
+.idea/androidTestResultsUserPreferences.xml
+*.iml
+
+# Signing credentials and local signing configuration
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Test and lint reports
+*.hprof
+lint-results-*.html
+lint-results-*.xml
+lint-results-*.txt
+
+# Operating system files
+.DS_Store
+Thumbs.db
